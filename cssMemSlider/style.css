@@ -81,16 +81,16 @@ body {
 }
 
 .slider__content .slide-1 {
-  background-image: url('/assets/IMG1.jpg');
+  background-image: url('https://raw.githubusercontent.com/PavelPoleshchuk/cssMemSlider/gh-pages/cssMemSlider/assets/IMG1.jpg');
 }
 .slider__content .slide-2 {
-  background-image: url('/assets/IMG2.jpg');
+  background-image: url('https://raw.githubusercontent.com/PavelPoleshchuk/cssMemSlider/gh-pages/cssMemSlider/assets/IMG2.jpg');
 }
 .slider__content .slide-3 {
-  background-image: url('/assets/IMG3.jpg  ');
+  background-image: url('https://raw.githubusercontent.com/PavelPoleshchuk/cssMemSlider/gh-pages/cssMemSlider/assets/IMG3.jpg  ');
 }
 .slider__content .slide-4 {
-  background-image: url('/assets/IMG4.jpg');
+  background-image: url('https://raw.githubusercontent.com/PavelPoleshchuk/cssMemSlider/gh-pages/cssMemSlider/assets/IMG4.jpg');
 }
 .slider__wrap-text {
   grid-area: description;
