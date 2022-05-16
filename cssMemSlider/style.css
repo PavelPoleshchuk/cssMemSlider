@@ -21,12 +21,9 @@ body {
   font-size: 2rem;
   color: var(--color-text);
   background-color: var(--color-bg);
-  /* width: 100%;
-  height: 100vh; */
+ 
 }
-/* .hidden {
-  visibility: hidden;
-} */
+
 
 .container {
   width: var(--slider-width);
@@ -37,9 +34,7 @@ body {
 .slider__wrap {
   width: 100%;
   height: 100%;
-  /* position: relative; */
-  /* background-color: var(--color-bg); */
-  overflow: hidden;
+   overflow: hidden;
   display: grid;
   grid-template-rows: 3fr 1fr;
   grid-template-columns: 3fr 1fr;
@@ -61,7 +56,7 @@ body {
   flex-direction: row;
 }
 .slider__wrap-content {
-  grid-area: content;  /* привязка блока к области content */
+  grid-area: content;  
 }
 .slider__content,
 .slider__description {
@@ -73,7 +68,7 @@ body {
 .slider__content .slide {
   display: inline-block;
   width: var(--slider-width);
-  /* height: 100%; */
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -104,7 +99,7 @@ body {
 .slider__control {
   display: flex;
   padding: 0 1rem;
-  /* align-items: center; */
+  
   justify-content: space-around;
   grid-area: control;
 }
@@ -121,10 +116,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /* transform: translate(50%, 50%); */
+ 
   width: 1.5rem;
   height: 1.5rem;
-  /* border-radius: 50%; */
+ 
   border: 3px solid var(--color-border);
   background-color: var(--color-bg);
   transition: all 0.5s ease-out;
@@ -141,7 +136,7 @@ body {
 #r2:checked ~ .slider__wrap-content .slider__content,
 #r2:checked ~ .slider__wrap-text .slider__description {
   transform: translateX(calc(-1*var(--slider-width)));
-  /* transform: translateX(-400px); */
+ 
 }
 
 #r3:checked ~ .slider__wrap-content .slider__content,
@@ -200,7 +195,7 @@ body {
   #r2:checked ~ .slider__wrap-content .slider__content,
 #r2:checked ~ .slider__wrap-text .slider__description {
   transform: translateX(calc(-1*var(--slider-width-mob)));
-  /* transform: translateX(-400px); */
+ 
 }
 
 #r3:checked ~ .slider__wrap-content .slider__content,
@@ -214,22 +209,16 @@ body {
 }
 .container {
   width: var(--slider-width-mob);
-  /* height: 480px;
-  margin: 8rem auto; */
+  
 }
 .slider__content .slide {
-  /* display: inline-block; */
+  
   width: var(--slider-width-mob);
-  /* height: 100%; */
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 1rem; */
+  
 }
 .slider__description .slide {
-  /* display: inline-block; */
+  
   width: var(--slider-width-mob);
-  /* height: 100%;
-  padding-right: 11rem; */
+ 
 }
 }
